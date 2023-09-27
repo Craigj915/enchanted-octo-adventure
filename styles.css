@@ -1,0 +1,28 @@
+.background-blue {
+    background-color: #0D1B2A;
+}
+
+.navColor {
+    background-color: #737373;
+}
+
+@font-face {
+    font-family: 'garet-book';
+    src: url('/fonts/garet-book-webfont.woff2') format('woff2'),
+         url('/fonts/garet-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'amsterdam';
+    src: url('/fonts/Amsterdam\ Four.ttf') format('truetype');
+}
+
+header {
+    font-family: 'garet-book';
+}
+
+h1 {
+    font-family: 'amsterdam';
+}
