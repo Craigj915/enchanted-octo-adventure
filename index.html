@@ -1,39 +1,222 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="styles.css" rel="stylesheet">
-    <script defer src="index.js"></script>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-</head>
 
-<body class="background-blue w-screen">
-    <header class="fixed top-0 container-2xl w-full mx-auto h-12 navColor z-50">
-        <div>
-            <div class="font-bold p-3 right-0 text-white">
-                <i id="darkon" class="absolute right-10 scale-125 material-icons">&#xe9f6;</i>
-                <i id="darkoff" class="absolute right-10 scale-125 material-icons hidden">&#xe9f5;</i>
-                <ul class="flex justify-end space-x-8 mx-32 text-right">
-                    <li class="inline-block">HOME</li>
-                    <li class="inline-block">ABOUT</li>
-                    <li class="inline-block">WORK</li>
-                    <li class="inline-block">CONTACT</li>
-                </ul>
-            </div>
+    <link href="styles.css" rel="stylesheet" />
+
+    <script defer src="index.js"></script>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bgGray h-full max-w-screen noScrollBar">
+    <section
+      id="leftBar"
+      class="fixed left-0 flex justify-center p-12 h-full w-60"
+    >
+      <div class="grid grid-rows-3 h-full">
+        <div id="LOGO" class="row-auto mx-auto">
+          <button>
+            <a href="#home"><img class="h-16" src="Assets/Logo.png" /></a>
+          </button>
         </div>
-    </header>
-    <div class="p-10 w-80 my-48 mx-40 text-cyan-400 text-center text-9xl scale-150 z-0">
-        <h1>Craig</h1>
-        <h1 class="relative bottom-4 left-20">Johnson</h1>
+        <div id="EMPTYSPACE"></div>
+        <div id="SOCIALS" class="row-auto mx-auto pt-16">
+          <ul class="textColor space-y-4">
+            <li>
+              <button>
+                <a
+                  href="https://github.com/Craigj915?tab=overview&from=2023-09-01&to=2023-09-28"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fa fa-github" style="font-size: 32px"></i
+                ></a>
+              </button>
+            </li>
+            <li>
+              <button>
+                <a
+                  href="https://www.linkedin.com/in/craig-johnson-a78935293/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fa fa-linkedin" style="font-size: 32px"></i
+                ></a>
+              </button>
+            </li>
+            <li>
+              <button>
+                <a
+                  href="https://www.instagram.com/cra1g.exe/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fa fa-instagram" style="font-size: 32px"></i
+                ></a>
+              </button>
+            </li>
+            <li>
+              <button>
+                <a
+                  href="https://wa.me/447549521803"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fa fa-whatsapp" style="font-size: 32px"></i
+                ></a>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section
+      id="rightBar"
+      class="fixed right-0 flex justify-center h-full w-60 p-12"
+    >
+      <div class="grid grid-rows-3 h-full">
+        <div id="NAV" class="row-auto mx-auto">
+          <ul class="text-right inter textBig space-y-1">
+            <li>
+              <button><a href="#about">ABOUT</a></button>
+            </li>
+            <li>
+              <button><a href="#work">WORK</a></button>
+            </li>
+            <li>
+              <button><a href="#contact">CONTACT</a></button>
+            </li>
+          </ul>
+        </div>
+        <div id="EMPTYSPACE"></div>
+        <div id="SOMETHING" class="row-auto pt-40 pl-16">
+          <div class="inter textBig -rotate-90">SIDEWAYS</div>
+        </div>
+      </div>
+    </section>
+    <div class="mx-60">
+    <section
+      id="home"
+      class="mx-auto h-screen w-full py-32 flex justify-center border-x"
+    >
+      <div>
+        <div class="redHatDisp spaceED textBig text-xl">CRAIG JOHNSON</div>
+      </div>
+    </section>
+    
+    <section id="about" class="mx-auto h-screen w-full py-32 flex border-x">
+      <div class="grid grid-rows-6 h-full py-12 px-20">
+        <div class="row-span-1 relative">
+          <text class="redHatDisp spaceED textBig absolute bottom-0"
+            >ABOUT ME</text
+          >
+        </div>
+        <div id="thingOne" class="row-span-1">
+          <text class="inter textBig space-y-4 text-6xl hover:border-y">THING ONE</text>
+        </div>
+        <div id="thingTwo" class="row-span-1">
+          <text class="inter textBig space-y-4 text-6xl hover:border-y">THING TWO</text>
+        </div>
+        <div id="thingThree" class="row-span-1">
+          <text class="inter textBig space-y-4 text-6xl hover:border-y">THING THREE</text>
+        </div>
+        <div id="thingFour" class="row-span-1">
+          <text class="inter textBig space-y-4 text-6xl hover:border-y">THING FOUR</text>
+        </div>
+        <div id="SOMETHING" class="row-span-1 relative">
+          <button class="redHatDisp spaceED textBig">
+            <a
+              href="https://drive.google.com/drive/folders/1XsB_AskGfUhNiI92MfVaPDwZ54xKuasy?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              >CV</a
+            >
+          </button>
+        </div>
+      </div>
+    </section>
+    <section
+      id="work"
+      class="mx-auto h-screen w-full py-32 flex justify-end border-x"
+    >
+      <div class="grid grid-rows-6 h-full py-12 px-20 text-right">
+        <div class="row-span-1 relative px-20">
+          <text class="redHatDisp spaceED textBig absolute bottom-0"
+            >MY WORK</text
+          >
+        </div>
+        <div id="project1" class="row-span-1">
+          <text class="inter textBig space-y-4 text-6xl">PROJECT ONE</text>
+          <div>
+            <text class="inter textBig">September 2023</text>
+          </div>
+        </div>
+        <div id="project2" class="row-span-1">
+          <text class="inter textBig space-y-4 text-6xl">PROJECT TWO</text>
+          <div>
+            <text class="inter textBig">September 2023</text>
+          </div>
+        </div>
+        <div id="project3" class="row-span-1">
+          <text class="inter textBig space-y-4 text-6xl">PROJECT THREE</text>
+          <div>
+            <text class="inter textBig">September 2023</text>
+          </div>
+        </div>
+        <div id="project4" class="row-span-1">
+          <text class="inter textBig space-y-4 text-6xl">PROJECT FOUR</text>
+          <div>
+            <text class="inter textBig">September 2023</text>
+          </div>
+        </div>
+        <div id="project5" class="row-span-1 relative">
+          <text class="redHatDisp spaceED textBig"></text>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="mx-auto h-screen w-full py-32 border-x">
+      <div class="grid grid-rows-6 grid-cols-full h-full py-12 px-20">
+        <div class="flex justify-start row-span-1 col-span-full relative">
+          <text class="redHatDisp spaceED textBig absolute bottom-0"
+            >CONTACT</text
+          >
+        </div>
+        <div id="EMPTYSPACE" class="flex justify-start row-span-4 col-start-1">
+          <ul class="inter textBig space-y-12 text-6xl">
+            <li>THING ONE</li>
+            <li>THING TWO</li>
+            <li>THING THREE</li>
+            <li>THING FOUR</li>
+          </ul>
+        </div>
+        <div class="flex justify-end row-span-4 col-start-2">
+            <form class="space-x-12 inter textBig w-full" action="mailto:craigj915@gmail.com" method="post" enctype="text/plain">
+                <br>
+                <input class="w-1/2 bg-white bg-opacity-10 text-white rounded-md p-4 shadow shadow-gray-500 focus:outline-none focus:ring focus:border-blue-500" type="text" name="name" placeholder="YOUR NAME"><br>
+                <br>
+                <input class="w-1/2 bg-white bg-opacity-10 text-white rounded-md p-4 shadow shadow-gray-500 focus:outline-none focus:ring focus:border-blue-500" type="text" name="email" placeholder="YOUR EMAIL"><br>
+                <br>
+                <input class="h-1/2 w-full bg-white bg-opacity-10 text-white rounded-md p-4 shadow shadow-gray-500 focus:outline-none focus:ring focus:border-blue-500" type="text" name="message" placeholder="YOUR MESSAGE HERE"><br>
+                <br>
+                <input class="w-1/3 bg-white bg-opacity-10 rounded-md p-4 pointer shadow shadow-gray-500 hover:shadow-gray-300 hover:text-white hover:rounded-lg focus:outline-none focus:ring focus:border-blue-500" type="submit" value="Send">
+                <input class="w-1/3 bg-white bg-opacity-10 rounded-md p-4 pointer shadow shadow-gray-500 hover:shadow-gray-300 hover:text-white hover:rounded-lg focus:outline-none focus:ring focus:border-blue-500" type="reset" value="Reset">
+                </form>
+        </div>
+        <div id="SOMETHING" class="row-span-1 relative">
+          <text class="redHatDisp spaceED textBig">STUFF</text>
+        </div>
+      </div>
+    </section>
     </div>
-    <div>
-        <img src=""/>
-    </div>
-    <div class="w-10 mx-auto">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quo possimus inventore culpa temporibus doloribus impedit voluptas vel mollitia fuga minus ex eveniet eaque corrupti consectetur, sunt ipsam obcaecati, incidunt, laudantium corporis sint consequuntur praesentium dicta repudiandae. Saepe quas a eum aut quos tenetur. Consequuntur officiis ut sit, vitae ratione ducimus quidem deserunt perspiciatis delectus culpa, beatae obcaecati, laborum animi eum doloribus cupiditate! Temporibus omnis voluptatem officiis quod deleniti animi totam dignissimos maiores tempora nobis assumenda accusamus ipsam error, quos distinctio doloribus minima inventore ratione ducimus eum consectetur placeat alias molestiae quae. Distinctio deleniti at et deserunt eaque necessitatibus laborum earum placeat cumque. Ex ad dicta ab commodi eligendi. Eos alias illo illum eaque atque possimus repellat nulla deleniti neque minus, maxime blanditiis iste deserunt corrupti. Neque qui officiis harum placeat similique, velit sit corporis hic illo totam repellendus commodi corrupti quae, aspernatur cum? Reiciendis eveniet nulla vero possimus a ut, rerum quidem non ipsum quasi eaque eius harum ratione repudiandae, autem porro at dolores provident! Dolore et blanditiis, nulla beatae quibusdam voluptate quod! Reiciendis earum aspernatur a amet numquam, maxime ex nihil ducimus sit aliquam nisi cum ullam libero perspiciatis illo veritatis officiis fuga impedit tenetur pariatur quis ratione dolor. Earum eligendi dolorem molestiae. Deserunt architecto explicabo deleniti cum commodi corrupti laudantium, neque expedita id ut quisquam, placeat, eaque impedit ullam. Vitae illo ad accusamus fugiat laudantium voluptatum temporibus blanditiis. Nobis deleniti quo assumenda nostrum fuga animi vel dignissimos, numquam id ex architecto exercitationem quam nesciunt cumque saepe ducimus dolorem reiciendis veniam corporis ipsam! Iusto sit qui eum veniam minima! Incidunt quos perferendis dolorem non animi ipsa beatae aut architecto! Commodi tempore libero quaerat. Quam id vero iure placeat pariatur ab incidunt deleniti. Iure facilis, error ipsa inventore corrupti repudiandae asperiores ullam pariatur! Laudantium a laborum, vel reprehenderit dolor mollitia doloremque animi odio accusantium voluptate officia veritatis, eligendi sunt distinctio? Id dolor illum nisi a cupiditate facilis accusamus, quam debitis consectetur veniam. Fuga delectus ut accusamus maxime libero incidunt placeat, quia reiciendis eligendi repellat obcaecati sunt quaerat odio. Iusto voluptatibus labore iste libero error placeat sed nisi corporis sequi dolor sapiente, deserunt non molestiae minima sunt neque eius consequatur. Laboriosam minus ullam voluptatem perferendis aspernatur placeat rerum optio itaque reprehenderit vitae ratione quibusdam cumque et quo error, ex officia? Totam eos sit officia voluptas natus tempore odit repudiandae! Tempora, inventore! Non tempore dolorem, magni ducimus esse a fugit placeat!</p>
-    </div>
-</body>
+  </body>
 </html>

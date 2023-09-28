@@ -1,28 +1,44 @@
-.background-blue {
-    background-color: #0D1B2A;
+.bgGray {
+    background-color: #131516;
 }
 
-.navColor {
-    background-color: #737373;
+.redHatDisp {
+    font-family: 'Red Hat Display', sans-serif;
 }
 
-@font-face {
+.inter {
+    font-family: 'Inter', sans-serif;
+}
+
+.textBig {
+    color: #566067;
+    font-weight: 600;
+}
+
+.textColor {
+    color: #566067;
+}
+
+.spaceED {
+    letter-spacing: 6px;
+}
+
+.navRight {
     font-family: 'garet-book';
-    src: url('/fonts/garet-book-webfont.woff2') format('woff2'),
-         url('/fonts/garet-book-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    color: #566067;
+    font-weight: bold;
 }
 
-@font-face {
-    font-family: 'amsterdam';
-    src: url('/fonts/Amsterdam\ Four.ttf') format('truetype');
+.hiColor {
+    color: #82A5EB;
 }
 
-header {
-    font-family: 'garet-book';
-}
-
-h1 {
-    font-family: 'amsterdam';
-}
+body::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
