@@ -47,10 +47,6 @@ body::-webkit-scrollbar {
     cursor: url(Assets/Cursors/circle-notch-solid.svg) 15 15, move;
   }
 
-  button {
-    cursor: url(Assets/Cursors/xmark-solid.svg) 15 15, move;
-  }
-
   a {
     cursor: url(Assets/Cursors/xmark-solid.svg) 15 15, move;
   }
