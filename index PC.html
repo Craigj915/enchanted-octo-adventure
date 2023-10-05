@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scaleable-no"/>
+    <title>Craig Johnson</title>
+    <link rel="icon" href="Assets/octoLogo2.svg" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link href="styles.css" rel="stylesheet" />
+
+    <script defer src="index.js"></script>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bgGray h-full max-w-screen noScrollBar">
+    <section
+      id="leftBar"
+      class="fixed left-0 flex justify-center p-12 h-full w-60"
+    >
+      <div class="grid grid-rows-3 h-full">
+        <div id="LOGO" class="row-auto mx-auto">
+            <a type="button" href="#home"><img class="h-16" src="Assets/octoLogo2.svg" /></a>
+        </div>
+        <div id="EMPTYSPACE"></div>
+        <div id="SOCIALS" class="row-auto mx-auto pt-16">
+          <ul class="textColor space-y-4">
+            <li>
+                <a type="button"
+                  href="https://github.com/Craigj915?tab=overview&from=2023-09-01&to=2023-09-28"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fa fa-github" style="font-size: 32px"></i
+                ></a>
+            </li>
+            <li>
+                <a type="button"
+                  href="https://www.linkedin.com/in/craigj915/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fa fa-linkedin" style="font-size: 32px"></i
+                ></a>
+            </li>
+            <li>
+                <a type="button"
+                  href="https://www.instagram.com/cra1g.exe/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fa fa-instagram" style="font-size: 32px"></i
+                ></a>
+            </li>
+            <li>
+                <a type="button"
+                  href="https://wa.me/447549521803"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fa fa-whatsapp" style="font-size: 32px"></i
+                ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section
+      id="rightBar"
+      class="fixed right-0 flex justify-center h-full w-60 p-12"
+    >
+      <div class="grid grid-rows-3 h-full">
+        <div id="NAV" class="row-auto mx-auto">
+          <ul class="text-right inter textBig space-y-1">
+            <li>
+                <a type="button" href="#about">ABOUT</a>
+            </li>
+            <li>
+                <a type="button" href="#work">WORK</a>
+            </li>
+            <li>
+                <a type="button" href="#contact">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+        <div id="EMPTYSPACE"></div>
+        <div id="SOMETHING" class="row-auto pt-40 pl-16">
+          <div class="inter textBig -rotate-90">SIDEWAYS</div>
+        </div>
+      </div>
+    </section>
+    <div class="mx-60">
+      <section
+        id="home"
+        class="mx-auto h-screen w-full py-32 flex justify-center border-x"
+      >
+        <div>
+          <div class="redHatDisp spaceED textBig text-xl">CRAIG JOHNSON</div>
+        </div>
+      </section>
+      <section id="about" class="mx-auto h-screen w-full py-32 flex border-x">
+        <div class="grid grid-rows-6 h-full py-12 px-20">
+          <div class="row-span-1 relative">
+            <text class="redHatDisp spaceED textBig absolute bottom-2"
+              >ABOUT ME</text
+            >
+          </div>
+          <div id="thingOne" class="row-span-1">
+            <text class="inter textBig space-y-4 text-6xl hover:border-y"
+              >THING ONE</text
+            >
+          </div>
+          <div id="thingTwo" class="row-span-1">
+            <text class="inter textBig space-y-4 text-6xl hover:border-y"
+              >THING TWO</text
+            >
+          </div>
+          <div id="thingThree" class="row-span-1">
+            <text class="inter textBig space-y-4 text-6xl hover:border-y"
+              >THING THREE</text
+            >
+          </div>
+          <div id="thingFour" class="row-span-1">
+            <text class="inter textBig space-y-4 text-6xl hover:border-y"
+              >THING FOUR</text
+            >
+          </div>
+          <div id="SOMETHING" class="row-span-1 relative">
+            <div class="redHatDisp spaceED textBig">
+              <a type="button" 
+                href="https://drive.google.com/file/d/142zY-217au7S900-496OQivG-LdbZLr3/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                >CV</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="work"
+        class="mx-auto h-screen w-full py-32 flex justify-end border-x"
+      >
+        <div class="grid grid-rows-6 h-full py-12 px-20 text-right">
+          <div class="row-span-1 relative px-20">
+            <text class="redHatDisp spaceED textBig absolute bottom-2"
+              >MY WORK</text
+            >
+          </div>
+          <div id="project1" class="row-span-1">
+            <text class="inter textBig space-y-4 text-6xl">PROJECT ONE</text>
+            <div>
+              <text class="inter textBig">September 2023</text>
+            </div>
+          </div>
+          <div id="project2" class="row-span-1">
+            <text class="inter textBig space-y-4 text-6xl">PROJECT TWO</text>
+            <div>
+              <text class="inter textBig">September 2023</text>
+            </div>
+          </div>
+          <div id="project3" class="row-span-1">
+            <text class="inter textBig space-y-4 text-6xl">PROJECT THREE</text>
+            <div>
+              <text class="inter textBig">September 2023</text>
+            </div>
+          </div>
+          <div id="project4" class="row-span-1">
+            <text class="inter textBig space-y-4 text-6xl">PROJECT FOUR</text>
+            <div>
+              <text class="inter textBig">September 2023</text>
+            </div>
+          </div>
+          <div id="project5" class="row-span-1 relative">
+            <text class="redHatDisp spaceED textBig"></text>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="mx-auto h-screen w-full py-32 border-x">
+        <div class="grid grid-rows-6 grid-cols-2 h-full py-12 px-20">
+          <div class="flex justify-start row-span-1 col-span-full relative">
+            <text class="redHatDisp spaceED textBig absolute bottom-2"
+              >CONTACT</text
+            >
+          </div>
+          <div
+            id="EMPTYSPACE"
+            class="flex justify-start row-span-1 col-start-1"
+          > Hhh
+        </div>
+          <div
+            id="EMPTYSPACE"
+            class="flex justify-start row-span-1 col-start-1"
+          > Hhh
+        </div>
+          <div
+            id="EMPTYSPACE"
+            class="flex justify-start row-span-1 col-start-1"
+          > Hhh
+        </div>
+          <div
+            id="EMPTYSPACE"
+            class="flex justify-start row-span-1 col-start-1"
+          > Hhh
+        </div>
+          <div class="flex justify-end row-start-2 row-end-5 col-start-2 col-span-1">
+            <form
+              class="space-x-12 inter textBig w-full"
+              action="mailto:craigj915@gmail.com"
+              method="post"
+              enctype="text/plain"
+            >
+              <br />
+              <input
+                class="w-1/4 bg-white bg-opacity-10 text-white rounded-md p-4 shadow shadow-gray-500 focus:outline-none focus:ring focus:border-blue-500"
+                type="text"
+                name="name"
+                placeholder="YOUR NAME"
+              /><br />
+              <br />
+              <input
+                class="w-1/4 bg-white bg-opacity-10 text-white rounded-md p-4 shadow shadow-gray-500 focus:outline-none focus:ring focus:border-blue-500"
+                type="text"
+                name="email"
+                placeholder="YOUR EMAIL"
+              /><br />
+              <br />
+              <input
+                class="h-1/2 w-[90%] bg-white bg-opacity-10 text-white rounded-md p-4 shadow shadow-gray-500 focus:outline-none focus:ring focus:border-blue-500"
+                type="text"
+                name="message"
+                placeholder="YOUR MESSAGE HERE"
+              /><br />
+              <br />
+              <input
+                class="w-1/3 bg-white bg-opacity-10 rounded-md p-4 pointer shadow shadow-gray-500 hover:shadow-gray-300 hover:text-white hover:rounded-lg focus:outline-none focus:ring focus:border-blue-500"
+                type="submit"
+                value="Send"
+              />
+              <input
+                class="w-1/3 bg-white bg-opacity-10 rounded-md p-4 pointer shadow shadow-gray-500 hover:shadow-gray-300 hover:text-white hover:rounded-lg focus:outline-none focus:ring focus:border-blue-500"
+                type="reset"
+                value="Reset"
+              />
+            </form>
+          </div>
+          <div id="SOMETHING" class="row-start-6 relative">
+            <text class="redHatDisp spaceED textBig">STUFF</text>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
