@@ -30,22 +30,67 @@
     <section id="nav" class="fixed z-50">
       <div class="fixed inset-[4%] h-0">
         <div class="flex justify-between">
-          <a type="button" href="#home"
-            ><img id="logo" class="h-8" src="Assets/OctoLogo.png"
-          /></a>
-          <ul class="text-right inter textBig text-sm">
+          <div class="flex-col">
+            <a type="button" href="#home"
+              ><img id="logo" class="h-8 sm:h-10 md:h-12 lg:h-14 xl:h-16 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-blue-300 duration-300" src="Assets/OctoLogo.png"
+            /></a>
+            <div class="h-screen pb-16">
+              <ul class="textColor space-y-4 relative top-[60%] flex flex-col items-center invisible sm:visible">
+                <li>
+                    <a type="button"
+                      href="https://github.com/Craigj915?tab=overview&from=2023-09-01&to=2023-09-28"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><i class="fa fa-github transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-blue-300 duration-300" style="font-size: 32px"></i
+                    ></a>
+                </li>
+                <li>
+                    <a type="button"
+                      href="https://www.linkedin.com/in/craigj915/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><i class="fa fa-linkedin transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-blue-300 duration-300" style="font-size: 32px"></i
+                    ></a>
+                </li>
+                <li>
+                    <a type="button"
+                      href="https://www.instagram.com/cra1g.exe/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><i class="fa fa-instagram transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-blue-300 duration-300" style="font-size: 32px"></i
+                    ></a>
+                </li>
+                <li>
+                    <a type="button"
+                      href="https://wa.me/447549521803"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><i class="fa fa-whatsapp transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-blue-300 duration-300" style="font-size: 32px"></i
+                    ></a>
+                </li>
+                <li>
+                    <a type="button"
+                      href="mailto:craigj915@gmail.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><i class="fa fa-google transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-blue-300 duration-300" style="font-size: 32px"></i
+                    ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <ul class="text-right inter textBig text-sm sm:text-lg lg:text-xl xl:text-2xl ">
             <li>
-              <a type="button" href="#about">ABOUT</a>
+              <a type="button" href="#about" class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-blue-300 duration-300">ABOUT</a>
             </li>
             <li>
-              <a type="button" href="#work">WORK</a>
+              <a type="button" href="#work" class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-blue-300 duration-300">WORK</a>
             </li>
             <li>
-              <a type="button" href="#contact">CONTACT</a>
+              <a type="button" href="#contact" class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-blue-300 duration-300">CONTACT</a>
             </li>
           </ul>
         </div>
-      </div>
     </section>
 
     <section
@@ -53,81 +98,81 @@
       class="h-screen homeBg overflow-clip flex flex-col ">
       <div class="m-auto">
         <div class="flex justify-center py-4">
-          <div class="redHatDisp spaceED textBig text-xs drop-shadow-md">
+          <div class="redHatDisp spaceED textBig drop-shadow-md text-xs sm:text-lg lg:text-xl xl:text-2xl">
             CRAIG JOHNSON
           </div>
         </div>
         <div class="flex justify-center text-center">
-          <div class="inter textBig text-5xl drop-shadow-md">MAKING</div>
+          <div class="redHatDisp textBig text-5xl sm:text-6xl lg:text-7xl xl:text-8xl drop-shadow-md">MAKING</div>
         </div>
         <div class="flex justify-center text-center">
-          <div class="inter font-bold offColor text-5xl drop-shadow-md">
+          <div class="redHatDisp font-bold text-blue-300 text-5xl sm:text-6xl lg:text-7xl xl:text-8xl drop-shadow-md">
             AWESOME
           </div>
         </div>
         <div class="flex justify-center text-center">
-          <div class="inter textBig text-5xl drop-shadow-md">
+          <div class="redHatDisp textBig text-5xl sm:text-6xl lg:text-7xl xl:text-8xl drop-shadow-md">
             STUFF
           </div>
         </div>
         <div class="flex justify-center text-center">
-          <div class="inter textBig text-5xl drop-shadow-md">
+          <div class="redHatDisp textBig text-5xl sm:text-6xl lg:text-7xl xl:text-8xl drop-shadow-md">
             ALWAYS
           </div>
         </div>
       </div>
     </section>
 
-    <section id="about" class="h-fit overflow-clip flex flex-col ">
-      <div class="my-[30%]">
+    <section id="about" class="py-60 overflow-clip flex flex-col ">
+      <div class="sm:w-4/6 xl:w-1/2 sm:mx-auto">
         <div class="flex justify-start px-[4%]">
-          <div class="redHatDisp spaceED textBig text-xs drop-shadow-md">
+          <div class="redHatDisp spaceED textBig text-xs sm:text-lg lg:text-xl xl:text-2xl drop-shadow-md">
             ABOUT ME
           </div>
         </div>
-        <div class="flex justify-start px-[4%]">
-          <div class="inter textBig text-5xl drop-shadow-md">I AM</div>
+        <div class="flex justify-start px-[4%] ">
+          <div class="redHatDisp textBig text-5xl sm:text-6xl lg:text-7xl xl:text-8xl drop-shadow-md">I AM</div>
         </div>
         <div class="flex justify-start px-[4%]">
-          <div class="inter font-bold offColor text-5xl drop-shadow-md">
+          <div class="redHatDisp font-bold text-blue-300 text-5xl sm:text-6xl lg:text-7xl xl:text-8xl drop-shadow-md">
             WORD
           </div>
         </div>
         <div class="flex justify-start px-[4%]">
-          <div class="inter textBig text-5xl drop-shadow-md">WORDWORD</div>
+          <div class="redHatDisp textBig text-5xl sm:text-6xl lg:text-7xl xl:text-8xl drop-shadow-md">WORDWORD</div>
         </div>
         <div class="flex justify-start px-[4%]">
-          <div class="inter textBig text-5xl drop-shadow-md">WORD</div>
+          <div class="redHatDisp textBig text-5xl sm:text-6xl lg:text-7xl xl:text-8xl drop-shadow-md">WORD</div>
         </div>
       </div>
     </section>
 
-    <section id="work" class="h-fit overflow-clip flex flex-col">
-      <div class="text-right my-[30%]">
+    <section id="work" class="py-60 overflow-clip flex flex-col">
+      <div class="text-right sm:w-4/6 xl:w-1/2 sm:mx-auto">
         <div class="flex justify-end px-[4%]">
-          <div class="redHatDisp spaceED textBig text-xs drop-shadow-md">
+          <div class="redHatDisp spaceED textBig text-xs sm:text-lg lg:text-xl xl:text-2xl drop-shadow-md">
             MY WORK
           </div>
         </div>
         <div class="flex justify-end px-[4%]">
-          <div class="inter textBig text-5xl drop-shadow-md">
+          <div class="redHatDisp textBig text-5xl sm:text-6xl lg:text-7xl xl:text-8xl drop-shadow-md">
             OCTO SNIFFLE
             <div class=""></div>
           </div>
         </div>
         <div class="flex justify-end px-[4%]">
-          <div class="inter textBig offColor text-5xl drop-shadow-md">
+          <div class="redHatDisp textBig text-blue-300 text-5xl sm:text-6xl lg:text-7xl xl:text-8xl drop-shadow-md">
             OCTO WAFFLE
             <!-- My first website using tailwind css. I made a responsive navbar and an image carousel. -->
           </div>
         </div>
         <div class="flex justify-end px-[4%]">
-          <div class="inter textBig text-5xl drop-shadow-md">OCTO JOURNEY</div>
+          <div class="redHatDisp textBig text-5xl sm:text-6xl lg:text-7xl xl:text-8xl drop-shadow-md">OCTO JOURNEY</div>
         </div>
         <div class="flex justify-end px-[4%]">
-          <div class="inter textBig text-5xl drop-shadow-md">OCTO ENGINE</div>
+          <div class="redHatDisp textBig text-5xl sm:text-6xl lg:text-7xl xl:text-8xl drop-shadow-md">OCTO ENGINE</div>
         </div>
-        <div class="redHatDisp spaceED textBig offColor px-[4%]">
+        <div class="redHatDisp spaceED textBig text-blue-300 text-xs sm:text-lg lg:text-xl xl:text-2xl px-[4%]">
           <a
             type="button"
             href="https://drive.google.com/file/d/142zY-217au7S900-496OQivG-LdbZLr3/view?usp=sharing"
@@ -139,10 +184,10 @@
       </div>
     </section>
 
-    <section id="octosniffle" class="h-fit overflow-clip flex flex-col">
-      <div class="text-left my-[5%]">
+    <section id="octosniffle" class="py-20 overflow-clip flex flex-col">
+      <div class="text-left sm:w-4/6 xl:w-1/2 sm:mx-auto">
         <div class="flex justify-start p-[4%]">
-          <div class="redHatDisp spaceED textBig text-xs drop-shadow-md">
+          <div class="redHatDisp spaceED textBig text-xs sm:text-lg lg:text-xl xl:text-lg drop-shadow-md">
             <a
             type="button"
             href="https://craigj915.github.io/fantastic-octo-sniffle/"
@@ -165,7 +210,7 @@
           </a>  
           </div>
         <div class="flex justify-start p-[4%]">
-        <div class="redHatDisp spaceED textBig offColor">
+        <div class="redHatDisp spaceED textBig text-blue-300 text-xs sm:text-lg lg:text-xl xl:text-lg">
           <a type="button"
             href="https://github.com/Craigj915/fantastic-octo-sniffle"
             target="_blank"
@@ -175,10 +220,10 @@
       </div>
     </section>
 
-    <section id="octowaffle" class="h-fit overflow-clip flex flex-col">
-      <div class="text-left my-[5%] mb-[50%]">
+    <section id="octowaffle" class="py-20 overflow-clip flex flex-col">
+      <div class="text-left  sm:w-4/6 xl:w-1/2 sm:mx-auto">
         <div class="flex justify-start p-[4%]">
-          <div class="redHatDisp spaceED textBig text-xs drop-shadow-md">
+          <div class="redHatDisp spaceED textBig text-xs sm:text-lg lg:text-xl xl:text-lg drop-shadow-md">
             <a
             type="button"
             href="https://github.com/Craigj915/fantastic-octo-sniffle"
@@ -191,7 +236,7 @@
               <img class="" src="Assets/fantastic-octo-waffle.png"/>
             </div>
         <div class="flex justify-start p-[4%]">
-        <div class="redHatDisp spaceED textBig offColor">
+        <div class="redHatDisp spaceED textBig text-blue-300 text-xs sm:text-lg lg:text-xl xl:text-lg">
           <a
             type="button"
             href="https://github.com/Craigj915/fantastic-octo-sniffle"
@@ -203,25 +248,22 @@
     </section>
 
     <section id="contact" class="h-screen bottomBg overflow-clip flex flex-col">
-      <div class="m-auto">
+      <div class="m-auto sm:w-4/6 xl:w-1/2 sm:mx-auto">
         <div class="flex justify-start px-[4%]">
-          <div class="redHatDisp spaceED textBig text-xs drop-shadow-md">
+          <div class="redHatDisp spaceED textBig text-xs sm:text-lg lg:text-xl xl:text-2xl drop-shadow-md">
             CONTACT
           </div>
         </div>
         <div class="flex justify-start px-[4%]">
-          <div class="inter textBig text-5xl drop-shadow-md">GITHUB</div>
-        </div>
-        <div class="flex justify-start px-[4%]">
-          <div class="inter font-bold offColor text-5xl drop-shadow-md">
-            LINKEDIN
+          <div class="redHatDisp font-bold textBig text-5xl sm:text-6xl lg:text-7xl xl:text-8xl drop-shadow-md">
+            EMAIL
           </div>
         </div>
         <div class="flex justify-start px-[4%]">
-          <div class="inter textBig text-5xl drop-shadow-md">EMAIL</div>
+          <div class="redHatDisp textBig text-blue-300 text-5xl sm:text-6xl lg:text-7xl xl:text-8xl drop-shadow-md">LINKEDIN</div>
         </div>
         <div class="flex justify-start px-[4%]">
-          <div class="inter textBig text-5xl drop-shadow-md">WHATSAPP</div>
+          <div class="redHatDisp textBig text-5xl sm:text-6xl lg:text-7xl xl:text-8xl drop-shadow-md">WHATSAPP</div>
         </div>
       </div>
     </section>
