@@ -9,6 +9,7 @@
 .inter {
   font-family: "Inter", sans-serif;
 }
+
 .sideways {
   transform: rotateZ(-90deg);
 }
@@ -16,6 +17,13 @@
 .textBig {
   color: #566067;
   font-weight: 600;
+}
+
+.svg-container svg path {
+  fill: #aca59a;
+}
+.svg-container:hover svg path {
+  fill: #4392f1; /* Blue-300 color */
 }
 
 .textColor {
