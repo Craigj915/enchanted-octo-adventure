@@ -14,10 +14,6 @@
   transform: rotateZ(-90deg);
 }
 
-.delete {
-  color: aqua;
-}
-
 .textBig {
   color: #566067;
   font-weight: 600;
